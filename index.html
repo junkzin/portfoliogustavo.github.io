@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="text-center py-5">
+        <h1>Portfólio Profissional</h1>
+        <p>Bem-vindo(a) ao meu espaço pessoal na web!</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#identificacao">Identificação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacao">Formação Acadêmica</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#atuacao">Atuação Profissional</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="redes-sociais.html">Redes Sociais</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <section id="identificacao" class="mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Identificação</h2>
+                    <p>Olá! Meu nome é Gustavo, tenho 21 anos, sou apaixonado por tudo que envolve tecnologia e estou muito animado com este portfólio onde compartilho um pouco sobre mim!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/identicacao.jpg" alt="Sua Imagem" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="mb-5">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <h2>Formação Acadêmica</h2>
+                    <p>No momento estou cursando Análise e Desenvolvimento de Sistemas pela Projeção. Ao longo desse primeiro semestre, aprendi muito e estou em constante evolução profissional!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/formacao.png" alt="Formação Acadêmica" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </section>
+
+        <section id="atuacao" class="mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Atuação Profissional</h2>
+                    <p>Atualmente, estou atuando como Auxiliar de Secretário na área de educação e realizo manutenção de computadores por fora, buscando sempre me atualizar e melhorar nas minhas atividades profissionais.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/trabalho.png" alt="Atuação Profissional" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="mb-5">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-6">
+                    <h2>Hobbies</h2>
+                    <p>Eu tenho muitos hobbies, mas esses são os que eu realmente gosto com toda a minha alma. Compor músicas me permite expressar tudo o que eu sinto. Cantar me dá uma sensação incrível de liberdade. Adoro fazer trilhas, me conectar com a natureza, e as cachoeiras me recarregam. Assistir animes me transporta para outros mundos, e quando jogo basquete ou paintball, a adrenalina e o desafio me animam demais!</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/hobbie.png" alt="Hobbies" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="mb-5">
+            <h2>Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2024 Portfólio Gustavo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
